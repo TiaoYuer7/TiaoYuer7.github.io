@@ -26,10 +26,10 @@ let myImage = document.querySelector("img")
 
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute("src");
-    if(mySrc === "images/head.jpg"){
-        myImage.setAttribute("src", "images/tail.jpg");
+    if(mySrc === "head.jpg"){
+        myImage.setAttribute("src", "tail.jpg");
     }else{
-        myImage.setAttribute("src", "images/head.jpg");
+        myImage.setAttribute("src", "head.jpg");
     }
 };
 
